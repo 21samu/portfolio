@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <h1>Full Stack Developer</h1> 
+                <img id="img" src="./image/logo_full_stack-removebg-preview.png">
+            <nav>
+                <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>   
+                <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+    </header>
+<div class="container1">
+    <section id="about">
+        
+        <!-- <div class="wel"> WelCome To My Portfolio !... </div> -->
+        <h1 id="welcome-message">Welcome to My <div class="port">Portfolio</div><div class="ex">!...</div></h1>
+        <button id="reveal-button">Reveal More</button>
+          <img src="./image/samiksha.png" class="img" alt="">
+         <div class="button"><button>Download CV</button></div>
+        <br><br>
+       <h1> Hello,<br> <div class="sam"> I'm Samiksha</div></h1>
+       <div class="main">Full Stack Developer</div>
+        </section> 
+    <section>
+        <!-- <div class="para"> About Me </div> -->
+        <div id="p"> 
+            Hello! I'm a Full Stack Developer with experience in both frontend and backend technologies. Feel free to explore my portfolio.</p>
+            <div id="search">
+                Search <input class="placeholder" type="text" placeholder="Enter the text">
+                       </div>
+        </section>
+</div>
+        <section>
+            <div class="about">
+            <h2>About Me</h2>
+            <div class="p">I'm passionate about building robust and scalable applications. With expertise in various technologies, I enjoy solving complex problems and creating user-friendly solutions.</div>
+        </div>
+        </section>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Frontend Development</h3>
+                <div id="language">HTML, CSS, JavaScript, React.js, Bootstrap , Responsive Web Designing</div>
+            </div>
+            <div class="skill">
+                <h3>Backend Development</h3>
+                <div id="language">Node.js, Express.js, Python (Language), Django, C(Language)</div>
+            </div>
+            <div class="skill">
+                <h3>Database</h3>
+                <div id="language">MySQL, MongoDB,Data Structure and Algorithm</div>
+            </div>
+            <div class="skill">
+                <h3>Figma</h3>
+                <div id="language">UX and UI Design</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project-details" style="display: none;">
+        <button id="close-details">Close</button>
+        <h2 id="project-title">Project Title</h2>
+        <p id="project-description">Project Description</p>
+        <a id="project-link" href="#" target="_blank">View Project</a>
+    </section>
+    <section id="projects">
+        <h2>My Work</h2>
+        <div class="project">
+            <div class="headline">TaskManager Pro</div><br>
+
+            <p><br> A web-based task management application with features for organizing tasks efficiently.</p>
+            <p><strong>Technologies:</strong><br><br>
+             React, Node.js, Express, MongoDB </p>
+            <a href="https://github.com/username/taskmanager-pro" target="_blank">GitHub Repository</a> |
+            <a href="https://taskmanagerpro.example.com" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+            <div class="headline">Foodie Finder</div><br>
+
+            <p><br>A restaurant and food discovery app with search and filtering options.</p>
+            <p><strong>Technologies:</strong><br><br>
+            React.js,  Bootstrap, MySQL, Google Maps API</p>
+            <a href="https://github.com/username/foodie-finder" target="_blank">GitHub Repository</a> |
+            <a href="https://foodiefinder.example.com" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+            <div class="headline">E-Commerce Platform</div><br>
+
+            <p><br>A scalable e-commerce platform with product listings and payment processing.</p>
+            <p><strong>Technologies:</strong><br><br>
+            Node.js, react.js, MySQL</p>
+            <a href="https://github.com/username/ecommerce-platform" target="_blank">GitHub Repository</a> |
+            <a href="https://ecommerceplatform.example.com" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+            <div class="headline">Portfolio Builder</div><br>
+
+            <p><br>A personal portfolio website allowing users to manage and showcase their work.</p>
+            <p><strong>Technologies:</strong><br><br> 
+            Next.js, GraphQL, Node.js,MySQL</p>
+            <a href="https://github.com/username/portfolio-builder" target="_blank">GitHub Repository</a> |
+            <a href="https://portfolio-builder.example.com" target="_blank">Live Demo</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div id="h2">Contact Me</div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter the name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter the E-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the Subject"required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Enter the Message"required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    <!-- </section>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+    <section> -->
+         <!-- Footer Section -->
+    <footer class="footer">
+        <div id="container">
+            <div class="footer-content">
+                <div class="footer-bio">
+                    <h4>About Me</h4>
+                    <p>Full Stack Developer with experience in frontend and backend technologies. Passionate about coding and solving problems.</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect with me</h4>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+                        <img src="linkedin-icon.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub">
+                        <img src="github-icon.png" alt="GitHub">
+                    </a>
+                    <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter">
+                        <img src="twitter-icon.png" alt="Twitter">
+                    </a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Email: <a href="mailto:your.email@example.com">samikshajichkar@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+8446473756</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+    </section>
+</body>
+</html>
